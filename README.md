@@ -101,4 +101,5 @@ Ensure you have the necessary write permissions on the S3 bucket.
 Make sure you have given executable permissions to the script. You can set this with chmod +x clouduploader.
 
 Support
+
 For support, issues, or feature requests, please file an issue on the GitHub repository issue tracker.
