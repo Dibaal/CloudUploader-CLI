@@ -16,13 +16,13 @@ Run the Installer:
 Navigate to the CloudUploader directory.
 Run the installation script:
 
-./install.sh
+```./install.sh ```
 
 ## Verify Installation:
 
 Ensure that CloudUploader is correctly installed by running:
 
-clouduploader --help
+``` clouduploader --help ```
 
 This should display the help information for CloudUploader.
 
@@ -37,7 +37,7 @@ To use CloudUploader, follow this simple command structure:
 Example
 Upload a file named example.txt to a bucket named my-s3-bucket:
 
-clouduploader /path/to/example.txt my-s3-bucket
+``` clouduploader /path/to/example.txt my-s3-bucket ```
 
 
 Certainly! Below is an example of how you might structure and write a README.md file for your CloudUploader tool. This includes sections on setup, usage, and troubleshooting, along with other relevant information:
@@ -60,6 +60,7 @@ Run the Installer:
 
 Navigate to the CloudUploader directory.
 Run the installation script:
+
 bash
 Copy code
 ./install.sh
