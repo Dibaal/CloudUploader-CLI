@@ -18,7 +18,7 @@ Run the installation script:
 
 ./install.sh
 
-Verify Installation:
+## Verify Installation:
 
 Ensure that CloudUploader is correctly installed by running:
 
@@ -26,10 +26,10 @@ clouduploader --help
 
 This should display the help information for CloudUploader.
 
-Usage
+## Usage
 To use CloudUploader, follow this simple command structure:
 
-clouduploader <file_path> <s3_bucket_name>
+```clouduploader <file_path> <s3_bucket_name>```
 
 • file_path: Path to the file you wish to upload.
 • s3_bucket_name: Name of the target AWS S3 bucket.
