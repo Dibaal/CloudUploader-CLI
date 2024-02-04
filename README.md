@@ -7,9 +7,11 @@ This a project from [learntocloud.guide](https://learntocloud.guide/) authored b
 ## Prerequisites
 Before using CloudUploader, ensure you have the following:
 
-+ [AWS CLI installed and configured with your AWS credentials.](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
-+ Basic familiarity with command-line operations.
 
++ [AWS CLI installed and configured with your AWS credentials.](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
++ [Basic familiarity with command-line operations.](https://www.codecademy.com/article/command-line-commands)
+
+  
 ## Installation
 Download CloudUploader:
 
