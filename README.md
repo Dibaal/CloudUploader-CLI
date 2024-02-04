@@ -1,6 +1,7 @@
 # CloudUploader-CLI
 
 This is a capstone project to build a bash-based Command-Line Interface (CLI) application designed to streamline the process of uploading files to cloud storage. A tool that empowers users to efficiently transfer files to their chosen cloud storage solution with the simplicity and ease of popular storage services.
+This a project from [learntocloud.guide](https://learntocloud.guide/)
 
 
 ## Prerequisites
@@ -9,7 +10,7 @@ Before using CloudUploader, ensure you have the following:
 + AWS CLI installed and configured with your AWS credentials.
 + Basic familiarity with command-line operations.
 
-Installation
+## Installation
 Download CloudUploader:
 
 Clone or download the CloudUploader repository from GitHub.
