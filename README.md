@@ -1,7 +1,7 @@
 ## CloudUploader-CLI
 
     #Prerequisites
-Before using CloudUploader, ensure you have the following:
+>Before using CloudUploader, ensure you have the following:
 
 •AWS CLI installed and configured with your AWS credentials.
 •Basic familiarity with command-line operations.
