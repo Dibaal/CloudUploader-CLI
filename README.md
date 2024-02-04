@@ -1,4 +1,4 @@
-### CloudUploader-CLI
+## CloudUploader-CLI
 
     Prerequisites
 Before using CloudUploader, ensure you have the following:
