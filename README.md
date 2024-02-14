@@ -23,7 +23,7 @@ Before using CloudUploader, ensure you have the following:
 
 Run the command below
 
-''' aws s3 ls'''
+``` aws s3 ls ```
 
  A list of your S3 buckets should appear if configured correctly.
 
@@ -31,19 +31,19 @@ Run the command below
 
  . Create S3 Bucket:
 
-''' aws s3 mb s3://cloud-uploader-bucket-name14012024 '''
+``` aws s3 mb s3://cloud-uploader-bucket-name14012024 ```
 
  . Create Bucket Policy with bucket-policy.json:
 
- ''' aws s3api put-bucket-policy --bucket cloud-uploader-bucket-name14012024 --policy file://bucket-policy.json '''
+ ``` aws s3api put-bucket-policy --bucket cloud-uploader-bucket-name14012024 --policy file://bucket-policy.json ```
 
  ## Create the Script File with Executable Permissions
 
   . Create the script file:
 
-  ''' touch clouduploader.sh
+  ``` touch clouduploader.sh
 chmod 744 clouduploader.sh
- '''
+ ```
 
  
   
