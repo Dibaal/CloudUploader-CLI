@@ -41,9 +41,9 @@ To use CloudUploader, follow this simple command structure:
 ```clouduploader <file_path> <s3_bucket_name>```
 
 
-. file_path: Path to the file you wish to upload
+. __file_path__: Path to the file you wish to upload
 
-• s3_bucket_name: Name of the target AWS S3 bucket
+• __s3_bucket_name__: Name of the target AWS S3 bucket
 
 Example
 Upload a file named example.txt to a bucket named my-s3-bucket:
