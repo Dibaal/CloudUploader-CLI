@@ -4,8 +4,6 @@ This project aims to create a bash-based Command-Line Interface (CLI) tool for e
 
 To list the contents of the specific S3 bucket, use the following Bash command:
 
-```bash
-aws s3 ls s3://cloud-uploader-bucket-name14012024/
 
 ## Prerequisites
 
