@@ -32,7 +32,7 @@ Run the command below
 
  + Create S3 Bucket:
 
-```bash aws s3 mb s3://cloud-uploader-bucket-name14012024 ```
+``` aws s3 mb s3://cloud-uploader-bucket-name14012024 ```
 
  + Create Bucket Policy with bucket-policy.json:
 
