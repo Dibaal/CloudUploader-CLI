@@ -42,7 +42,7 @@ aws s3 mb s3://cloud-uploader-bucket-name14012024
 
  + Create Bucket Policy with bucket-policy.json:
 
- ```bash
+```bash
  aws s3api put-bucket-policy --bucket cloud-uploader-bucket-name14012024 --policy file://bucket-policy.json
 ```
 
@@ -57,9 +57,9 @@ chmod 744 clouduploader.sh
 
 + Write the script using Vim:
 
-  ```bash
-  vim clouduploader.sh
-  ```
+```bash
+vim clouduploader.sh
+```
 
   ### Script Explanation
   
