@@ -1,20 +1,51 @@
-# CloudUploader-CLI
+# Objective
 
-This is a capstone project to build a bash-based Command-Line Interface (CLI) application designed to streamline the process of uploading files to cloud storage. A tool that empowers users to efficiently transfer files to their chosen cloud storage solution with the simplicity and ease of popular storage services.
-This a project from [learntocloud.guide](https://learntocloud.guide/) authored by @madebygps
+This project aims to create a bash-based Command-Line Interface (CLI) tool for efficiently uploading files to various cloud storage solutions. Designed for simplicity and ease of use, it allows users to quickly transfer files to their preferred cloud storage, such as AWS S3, Google Cloud Storage, or Azure Blob Storage. While this demonstration focuses on AWS S3, the methods are applicable to any cloud storage service.This a project from [learntocloud.guide](https://learntocloud.guide/) authored by @madebygps
 
 
-## CloudUploader Overview
-
-CloudUploader is a command-line tool designed for easy and efficient uploading of files to AWS S3 storage. It provides a simple interface for quickly transferring files from your local system to an S3 bucket.
 
 ## Prerequisites
+
+. Basic understanding of Linux commands.
+. Familiarity with Bash scripting. For beginners, refer to my previous article.
+. Knowledge of a text editor (Nano, Vi, Vim, etc.). This guide uses Vim.
+. A terminal running Bash.
+. Basic understanding of cloud storage services, e.g., AWS S3.
+
+
 Before using CloudUploader, ensure you have the following:
 
 
 + [AWS CLI installed and configured with your AWS credentials.](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
 + [Basic familiarity with command-line operations.](https://www.codecademy.com/article/command-line-commands)
 
+## Test Connection:
+
+Run the command below
+
+''' aws s3 ls'''
+
+ A list of your S3 buckets should appear if configured correctly.
+
+ ## Create the S3 Bucket and Configure Permissions
+
+ . Create S3 Bucket:
+
+''' aws s3 mb s3://cloud-uploader-bucket-name14012024 '''
+
+ . Create Bucket Policy with bucket-policy.json:
+
+ ''' aws s3api put-bucket-policy --bucket cloud-uploader-bucket-name14012024 --policy file://bucket-policy.json '''
+
+ ## Create the Script File with Executable Permissions
+
+  . Create the script file:
+
+  ''' touch clouduploader.sh
+chmod 744 clouduploader.sh
+ '''
+
+ 
   
 ## Installation
 
