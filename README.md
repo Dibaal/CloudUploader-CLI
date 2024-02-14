@@ -22,7 +22,9 @@ Run the Installer:
 Navigate to the CloudUploader directory.
 Run the installation script:
 
+
 ```./install.sh ```
+
 
 ## Verify Installation:
 
