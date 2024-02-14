@@ -41,9 +41,9 @@ Run the command below
 
   + Create the script file:
 
-  ``` touch clouduploader.sh
-chmod 744 clouduploader.sh
- ```
+``` touch clouduploader.sh ```
+``` chmod 744 clouduploader.sh ```
+ 
 
  
   
