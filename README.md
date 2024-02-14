@@ -44,7 +44,20 @@ Run the command below
 
 ``` touch clouduploader.sh ```
 ``` chmod 744 clouduploader.sh ```
- 
+
++ Write the script using Vim:
+
+  ``` vim clouduploader.sh ```
+
+  ## Script Explanation
+  
+__Defining Variables:__ file_name and bucket_name capture the first and second command-line arguments, respectively.
+
+__Checking File Existence:__ Validates the presence of the specified file before attempting upload.
+
+__Performing File Upload:__ Utilizes aws s3 cp to upload the file, capturing output and status for error handling.
+
+__Success and Error Reporting:__ Provides clear feedback on the upload process's outcome.  
 
  
   
