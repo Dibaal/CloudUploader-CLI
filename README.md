@@ -23,7 +23,7 @@ Before using CloudUploader, ensure you have the following:
 
 Run the command below
 
-``` aws s3 ls ```
+```bash aws s3 ls ```
 
 
  A list of your S3 buckets should appear if configured correctly.
@@ -32,7 +32,7 @@ Run the command below
 
  + Create S3 Bucket:
 
-``` aws s3 mb s3://cloud-uploader-bucket-name14012024 ```
+```bash aws s3 mb s3://cloud-uploader-bucket-name14012024 ```
 
  + Create Bucket Policy with bucket-policy.json:
 
@@ -130,6 +130,4 @@ Ensure you have the necessary write permissions on the S3 bucket.
 • __Script Not Executing:__
 Make sure you have given executable permissions to the script. You can set this with chmod +x clouduploader.
 
-## Support
 
-For support, issues, or feature requests, please file an issue on the GitHub repository issue tracker.
