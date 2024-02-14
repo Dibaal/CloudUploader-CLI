@@ -29,17 +29,17 @@ Run the command below
 
  ## Create the S3 Bucket and Configure Permissions
 
- . Create S3 Bucket:
+ + Create S3 Bucket:
 
 ``` aws s3 mb s3://cloud-uploader-bucket-name14012024 ```
 
- . Create Bucket Policy with bucket-policy.json:
+ + Create Bucket Policy with bucket-policy.json:
 
  ``` aws s3api put-bucket-policy --bucket cloud-uploader-bucket-name14012024 --policy file://bucket-policy.json ```
 
  ## Create the Script File with Executable Permissions
 
-  . Create the script file:
+  + Create the script file:
 
   ``` touch clouduploader.sh
 chmod 744 clouduploader.sh
