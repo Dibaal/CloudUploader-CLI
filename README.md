@@ -24,7 +24,7 @@ Before using CloudUploader, ensure you have the following:
 
 Run the command below
 
-` aws s3 ls `
+```bash aws s3 ls ```
 
 
 
