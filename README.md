@@ -36,22 +36,30 @@ aws s3 ls
 
  + Create S3 Bucket:
 
-``` aws s3 mb s3://cloud-uploader-bucket-name14012024 ```
+```bash
+aws s3 mb s3://cloud-uploader-bucket-name14012024
+```
 
  + Create Bucket Policy with bucket-policy.json:
 
- ``` aws s3api put-bucket-policy --bucket cloud-uploader-bucket-name14012024 --policy file://bucket-policy.json ```
+ ```bash
+ aws s3api put-bucket-policy --bucket cloud-uploader-bucket-name14012024 --policy file://bucket-policy.json
+```
 
  ## Create the Script File with Executable Permissions
 
   + Create the script file:
 
-``` touch clouduploader.sh ```
-``` chmod 744 clouduploader.sh ```
+```bash
+touch clouduploader.sh
+chmod 744 clouduploader.sh
+```
 
 + Write the script using Vim:
 
-  ``` vim clouduploader.sh ```
+  ```bash
+  vim clouduploader.sh
+  ```
 
   ### Script Explanation
   
@@ -68,11 +76,15 @@ __Success and Error Reporting:__ Provides clear feedback on the upload process's
 
 Run the script with the file and bucket name as arguments:
 
-``` ./clouduploader.sh bucket-policy.json cloud-uploader-bucket-name14012024 ```
+```bash
+./clouduploader.sh bucket-policy.json cloud-uploader-bucket-name14012024
+```
 
 + To verify the upload:
 
-   ``` aws s3 ls s3://cloud-uploader-bucket-name14012024/ ```
+   ```bash
+   aws s3 ls s3://cloud-uploader-bucket-name14012024/
+   ```
   
 ## Installation
 
@@ -83,7 +95,9 @@ To install CloudUploader:
 3. Run the installation script:
 
 
-```./install.sh ```
+```bash
+./install.sh
+```
 
 
 ## Verify Installation:
@@ -91,7 +105,9 @@ To install CloudUploader:
 Ensure that CloudUploader is correctly installed by running:
 
 
-``` clouduploader --help ```
+```bash
+clouduploader --help
+```
 
 
 This should display the help information for CloudUploader.
@@ -100,7 +116,9 @@ This should display the help information for CloudUploader.
 To use CloudUploader, follow this simple command structure:
 
 
-```clouduploader <file_path> <s3_bucket_name>```
+```bash
+clouduploader <file_path> <s3_bucket_name>
+```
 
 
 . __file_path__: Path to the file you wish to upload
@@ -112,7 +130,9 @@ Upload a file named example.txt to a bucket named my-s3-bucket:
 
 
 
-``` clouduploader /path/to/example.txt my-s3-bucket ```
+```bash
+clouduploader /path/to/example.txt my-s3-bucket
+```
 
 
 
