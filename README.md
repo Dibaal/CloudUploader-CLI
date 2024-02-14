@@ -49,7 +49,7 @@ Run the command below
 
   ``` vim clouduploader.sh ```
 
-  ## Script Explanation
+  ### Script Explanation
   
 __Defining Variables:__ file_name and bucket_name capture the first and second command-line arguments, respectively.
 
@@ -59,7 +59,16 @@ __Performing File Upload:__ Utilizes aws s3 cp to upload the file, capturing out
 
 __Success and Error Reporting:__ Provides clear feedback on the upload process's outcome.  
 
- 
+
+## Execute the Script
+
+Run the script with the file and bucket name as arguments:
+
+``` ./clouduploader.sh bucket-policy.json cloud-uploader-bucket-name14012024 ```
+
++ To verify the upload:
+
+   ``` aws s3 ls s3://cloud-uploader-bucket-name14012024/ ```
   
 ## Installation
 
