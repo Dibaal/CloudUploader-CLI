@@ -25,6 +25,7 @@ Run the command below
 
 ``` aws s3 ls ```
 
+
  A list of your S3 buckets should appear if configured correctly.
 
  ## Create the S3 Bucket and Configure Permissions
