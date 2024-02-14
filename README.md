@@ -23,7 +23,10 @@ Before using CloudUploader, ensure you have the following:
 
 Run the command below
 
-``` aws s3 ls ```
+```markdown
+```bash
+aws s3 ls
+
 
 
  A list of your S3 buckets should appear if configured correctly.
