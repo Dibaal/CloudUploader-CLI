@@ -13,14 +13,12 @@ Before using CloudUploader, ensure you have the following:
 
   
 ## Installation
-Download CloudUploader:
 
-Clone or download the CloudUploader repository.
-Extract the files if downloaded as a zip.
-Run the Installer:
+To install CloudUploader:
 
-Navigate to the CloudUploader directory.
-Run the installation script:
+1. Clone the CloudUploader repository.
+2. Navigate to the CloudUploader directory
+3. Run the installation script:
 
 
 ```./install.sh ```
