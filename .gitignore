@@ -1,0 +1,91 @@
+# General
+*.log
+*.tmp
+*.temp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+
+# Node (if you use Node.js for tooling)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Python virtualenv (if used for scripts or automation)
+venv/
+*.pyc
+
+# Compiled Source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# It's better to exclude package directories if you're using package managers
+# For example, for Python
+*.egg
+*.egg-info
+/dist
+/build
+/docs/_build
+
+# Installer logs
+*.msi
+*.msm
+*.msp
+
+# IDE specific files #
+######################
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Visual Studio Code
+.vscode/
+
+# Vim
+*.vim
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.SpotifyCache
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# Bash history files
+.bash_history
+
+# Temporary files #
+###################
+*~
+*.tmp
+*.temp
+*.swp
+
