@@ -1,3 +1,4 @@
+```bash
 #!/bin/bash
 
 # Author: Dibaal Akari
