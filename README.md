@@ -4,7 +4,7 @@ This project aims to create a bash-based Command-Line Interface (CLI) tool for e
 
 ## Architecture
 
-![Alt text](https://d1.dropboxusercontent.com/scl/fi/y3i3szidv7zhtrt5ehwwg/Archi2.png)
+![Alt text](https://github.com/Dibaal/Assets-.gitkeep/blob/main/Architecture%20diagram.png)
 
 ## Prerequisites
 
